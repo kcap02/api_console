@@ -8593,19 +8593,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\flori\\.nuget\\packages\\": {}
+    "C:\\Users\\Ken\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\flori\\source\\repos\\api_console\\Projet_API\\Projet_API\\Projet_API.csproj",
+      "projectUniqueName": "C:\\Users\\Ken\\Source\\Repos\\api_console\\Projet_API\\Projet_API\\Projet_API.csproj",
       "projectName": "Projet_API",
-      "projectPath": "C:\\Users\\flori\\source\\repos\\api_console\\Projet_API\\Projet_API\\Projet_API.csproj",
-      "packagesPath": "C:\\Users\\flori\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\flori\\source\\repos\\api_console\\Projet_API\\Projet_API\\obj\\",
+      "projectPath": "C:\\Users\\Ken\\Source\\Repos\\api_console\\Projet_API\\Projet_API\\Projet_API.csproj",
+      "packagesPath": "C:\\Users\\Ken\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ken\\Source\\Repos\\api_console\\Projet_API\\Projet_API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\flori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ken\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8625,6 +8625,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -8673,7 +8678,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

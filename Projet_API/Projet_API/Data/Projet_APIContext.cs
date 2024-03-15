@@ -17,5 +17,9 @@ namespace Projet_API.Data
         public DbSet<Projet_API.Models.Constructeur> Constructeur { get; set; } = default!;
         public DbSet<Projet_API.Models.ConsoledeJeux> Console { get; set; } = default!;
         public DbSet<Projet_API.Models.ChiffresVentes> ChiffresVentes { get; set; } = default!;
+
+ 
+
+
     }
 }
