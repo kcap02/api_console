@@ -18,6 +18,8 @@ using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
     SeedData.Initialize(services);
+    SeedData2.Initialize(services);
+    SeedData3.Initialize(services);    
 }
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

@@ -523,3 +523,4 @@ C:\Users\Ken\Source\Repos\api_console\Projet_API\Projet_API\obj\Debug\net8.0\ref
 C:\Users\Ken\Source\Repos\api_console\Projet_API\Projet_API\obj\Debug\net8.0\Projet_API.pdb
 C:\Users\Ken\Source\Repos\api_console\Projet_API\Projet_API\obj\Debug\net8.0\Projet_API.genruntimeconfig.cache
 C:\Users\Ken\Source\Repos\api_console\Projet_API\Projet_API\obj\Debug\net8.0\ref\Projet_API.dll
+C:\Users\flori\source\repos\api_console\Projet_API\Projet_API\obj\Debug\net8.0\Projet_API.sourcelink.json
