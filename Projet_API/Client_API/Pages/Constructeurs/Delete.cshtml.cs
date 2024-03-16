@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Client_API.API;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.EntityFrameworkCore;
+///using Microsoft.EntityFrameworkCore;
 using Client_API.API;
 
 namespace Client_API.Pages.Constructeurs

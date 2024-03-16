@@ -3,7 +3,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages().AddNewtonsoftJson();
-builder.Services.AddHttpClient<IConstructeursAPI, ConstructeursAPI>(client=>client.BaseAddress=new Uri(builder.Configuration.GetSection("ConstructeursAPI").Value));
+builder.Services.AddHttpClient<IConstructeursAPI, ConstructeursAPI>(client=>client.BaseAddress=new Uri(builder.Configuration.GetSection("ConstructeurAPI").Value));
 builder.Services.AddRazorPages();
 var app = builder.Build();
 

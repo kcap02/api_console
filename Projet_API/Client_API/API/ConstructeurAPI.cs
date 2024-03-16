@@ -1041,7 +1041,7 @@ namespace Client_API.API
                     var urlBuilder_ = new System.Text.StringBuilder();
                     if (!string.IsNullOrEmpty(_baseUrl)) urlBuilder_.Append(_baseUrl);
                     // Operation Path: "api/Constructeurs"
-                    urlBuilder_.Append("api/Constructeurs");
+                    urlBuilder_.Append("/api/Constructeurs");
 
                     PrepareRequest(client_, request_, urlBuilder_);
 
@@ -1123,7 +1123,7 @@ namespace Client_API.API
                     var urlBuilder_ = new System.Text.StringBuilder();
                     if (!string.IsNullOrEmpty(_baseUrl)) urlBuilder_.Append(_baseUrl);
                     // Operation Path: "api/Constructeurs"
-                    urlBuilder_.Append("api/Constructeurs");
+                    urlBuilder_.Append("/api/Constructeurs");
 
                     PrepareRequest(client_, request_, urlBuilder_);
 
@@ -1204,7 +1204,7 @@ namespace Client_API.API
                     var urlBuilder_ = new System.Text.StringBuilder();
                     if (!string.IsNullOrEmpty(_baseUrl)) urlBuilder_.Append(_baseUrl);
                     // Operation Path: "api/Constructeurs/{id}"
-                    urlBuilder_.Append("api/Constructeurs/");
+                    urlBuilder_.Append("/api/Constructeurs/");
                     urlBuilder_.Append(System.Uri.EscapeDataString(ConvertToString(id, System.Globalization.CultureInfo.InvariantCulture)));
 
                     PrepareRequest(client_, request_, urlBuilder_);
@@ -1289,7 +1289,7 @@ namespace Client_API.API
                     var urlBuilder_ = new System.Text.StringBuilder();
                     if (!string.IsNullOrEmpty(_baseUrl)) urlBuilder_.Append(_baseUrl);
                     // Operation Path: "api/Constructeurs/{id}"
-                    urlBuilder_.Append("api/Constructeurs/");
+                    urlBuilder_.Append("/api/Constructeurs/");
                     urlBuilder_.Append(System.Uri.EscapeDataString(ConvertToString(id, System.Globalization.CultureInfo.InvariantCulture)));
 
                     PrepareRequest(client_, request_, urlBuilder_);
@@ -1365,7 +1365,7 @@ namespace Client_API.API
                     var urlBuilder_ = new System.Text.StringBuilder();
                     if (!string.IsNullOrEmpty(_baseUrl)) urlBuilder_.Append(_baseUrl);
                     // Operation Path: "api/Constructeurs/{id}"
-                    urlBuilder_.Append("api/Constructeurs/");
+                    urlBuilder_.Append("/api/Constructeurs/");
                     urlBuilder_.Append(System.Uri.EscapeDataString(ConvertToString(id, System.Globalization.CultureInfo.InvariantCulture)));
 
                     PrepareRequest(client_, request_, urlBuilder_);

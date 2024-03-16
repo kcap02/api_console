@@ -1,23 +1,11 @@
 {
   "Version": 1,
-  "Hash": "gXETEFrLi/ldC5YJ5uur3cGB/57onQtOyw0TIsQMxhg=",
+  "Hash": "zxFsPV9fBRUVIq7m6xlaY9YwAdtH52IVrHpY76W3D+4=",
   "Source": "Client_API",
   "BasePath": "_content/Client_API",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [
-    {
-      "Identity": "C:\\Users\\Ken\\Source\\Repos\\api_console\\Projet_API\\Projet_API\\Projet_API.csproj",
-      "Version": 2,
-      "Source": "Projet_API",
-      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
-      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
-    }
-  ],
+  "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
       "Name": "Client_API\\wwwroot",
@@ -28,44 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\Ken\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.2\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
-      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Ken\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.2\\staticwebassets\\",
-      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
-      "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Ken\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.2\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
-    },
-    {
-      "Identity": "C:\\Users\\Ken\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.2\\staticwebassets\\QuickGrid.razor.js",
-      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Ken\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.2\\staticwebassets\\",
-      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
-      "RelativePath": "QuickGrid.razor.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Ken\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.2\\staticwebassets\\QuickGrid.razor.js"
-    },
     {
       "Identity": "C:\\Users\\Ken\\Source\\Repos\\api_console\\Projet_API\\Client_API\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Client_API.styles.css",
       "SourceId": "Client_API",
