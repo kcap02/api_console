@@ -20,6 +20,7 @@ namespace Client_API.API
 {
     using System.Runtime;
     using System = global::System;
+    
 
     [System.CodeDom.Compiler.GeneratedCode("NSwag", "14.0.3.0 (NJsonSchema v11.0.0.0 (Newtonsoft.Json v13.0.0.0))")]
     public partial interface IConstructeursAPI
@@ -245,7 +246,7 @@ namespace Client_API.API
                     var urlBuilder_ = new System.Text.StringBuilder();
                     if (!string.IsNullOrEmpty(_baseUrl)) urlBuilder_.Append(_baseUrl);
                     // Operation Path: "api/ChiffresVentes"
-                    urlBuilder_.Append("api/ChiffresVentes");
+                    urlBuilder_.Append("/api/ChiffresVentes");
 
                     PrepareRequest(client_, request_, urlBuilder_);
 
@@ -327,7 +328,7 @@ namespace Client_API.API
                     var urlBuilder_ = new System.Text.StringBuilder();
                     if (!string.IsNullOrEmpty(_baseUrl)) urlBuilder_.Append(_baseUrl);
                     // Operation Path: "api/ChiffresVentes"
-                    urlBuilder_.Append("api/ChiffresVentes");
+                    urlBuilder_.Append("/api/ChiffresVentes");
 
                     PrepareRequest(client_, request_, urlBuilder_);
 
@@ -408,7 +409,7 @@ namespace Client_API.API
                     var urlBuilder_ = new System.Text.StringBuilder();
                     if (!string.IsNullOrEmpty(_baseUrl)) urlBuilder_.Append(_baseUrl);
                     // Operation Path: "api/ChiffresVentes/{id}"
-                    urlBuilder_.Append("api/ChiffresVentes/");
+                    urlBuilder_.Append("/api/ChiffresVentes/");
                     urlBuilder_.Append(System.Uri.EscapeDataString(ConvertToString(id, System.Globalization.CultureInfo.InvariantCulture)));
 
                     PrepareRequest(client_, request_, urlBuilder_);
@@ -493,7 +494,7 @@ namespace Client_API.API
                     var urlBuilder_ = new System.Text.StringBuilder();
                     if (!string.IsNullOrEmpty(_baseUrl)) urlBuilder_.Append(_baseUrl);
                     // Operation Path: "api/ChiffresVentes/{id}"
-                    urlBuilder_.Append("api/ChiffresVentes/");
+                    urlBuilder_.Append("/api/ChiffresVentes/");
                     urlBuilder_.Append(System.Uri.EscapeDataString(ConvertToString(id, System.Globalization.CultureInfo.InvariantCulture)));
 
                     PrepareRequest(client_, request_, urlBuilder_);
@@ -569,7 +570,7 @@ namespace Client_API.API
                     var urlBuilder_ = new System.Text.StringBuilder();
                     if (!string.IsNullOrEmpty(_baseUrl)) urlBuilder_.Append(_baseUrl);
                     // Operation Path: "api/ChiffresVentes/{id}"
-                    urlBuilder_.Append("api/ChiffresVentes/");
+                    urlBuilder_.Append("/api/ChiffresVentes/");
                     urlBuilder_.Append(System.Uri.EscapeDataString(ConvertToString(id, System.Globalization.CultureInfo.InvariantCulture)));
 
                     PrepareRequest(client_, request_, urlBuilder_);
@@ -643,7 +644,7 @@ namespace Client_API.API
                     var urlBuilder_ = new System.Text.StringBuilder();
                     if (!string.IsNullOrEmpty(_baseUrl)) urlBuilder_.Append(_baseUrl);
                     // Operation Path: "api/ConsoledeJeuxes"
-                    urlBuilder_.Append("api/ConsoledeJeuxes");
+                    urlBuilder_.Append("/api/ConsoledeJeuxes");
 
                     PrepareRequest(client_, request_, urlBuilder_);
 
@@ -725,7 +726,7 @@ namespace Client_API.API
                     var urlBuilder_ = new System.Text.StringBuilder();
                     if (!string.IsNullOrEmpty(_baseUrl)) urlBuilder_.Append(_baseUrl);
                     // Operation Path: "api/ConsoledeJeuxes"
-                    urlBuilder_.Append("api/ConsoledeJeuxes");
+                    urlBuilder_.Append("/api/ConsoledeJeuxes");
 
                     PrepareRequest(client_, request_, urlBuilder_);
 
@@ -891,7 +892,7 @@ namespace Client_API.API
                     var urlBuilder_ = new System.Text.StringBuilder();
                     if (!string.IsNullOrEmpty(_baseUrl)) urlBuilder_.Append(_baseUrl);
                     // Operation Path: "api/ConsoledeJeuxes/{id}"
-                    urlBuilder_.Append("api/ConsoledeJeuxes/");
+                    urlBuilder_.Append("/api/ConsoledeJeuxes/");
                     urlBuilder_.Append(System.Uri.EscapeDataString(ConvertToString(id, System.Globalization.CultureInfo.InvariantCulture)));
 
                     PrepareRequest(client_, request_, urlBuilder_);
@@ -967,7 +968,7 @@ namespace Client_API.API
                     var urlBuilder_ = new System.Text.StringBuilder();
                     if (!string.IsNullOrEmpty(_baseUrl)) urlBuilder_.Append(_baseUrl);
                     // Operation Path: "api/ConsoledeJeuxes/{id}"
-                    urlBuilder_.Append("api/ConsoledeJeuxes/");
+                    urlBuilder_.Append("/api/ConsoledeJeuxes/");
                     urlBuilder_.Append(System.Uri.EscapeDataString(ConvertToString(id, System.Globalization.CultureInfo.InvariantCulture)));
 
                     PrepareRequest(client_, request_, urlBuilder_);
