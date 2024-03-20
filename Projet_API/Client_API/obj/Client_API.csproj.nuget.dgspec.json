@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ken\\source\\repos\\api_console\\Projet_API\\Client_API\\Client_API.csproj": {}
+    "C:\\Users\\flori\\source\\repos\\api_console\\Projet_API\\Client_API\\Client_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ken\\source\\repos\\api_console\\Projet_API\\Client_API\\Client_API.csproj": {
+    "C:\\Users\\flori\\source\\repos\\api_console\\Projet_API\\Client_API\\Client_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ken\\source\\repos\\api_console\\Projet_API\\Client_API\\Client_API.csproj",
+        "projectUniqueName": "C:\\Users\\flori\\source\\repos\\api_console\\Projet_API\\Client_API\\Client_API.csproj",
         "projectName": "Client_API",
-        "projectPath": "C:\\Users\\Ken\\source\\repos\\api_console\\Projet_API\\Client_API\\Client_API.csproj",
-        "packagesPath": "C:\\Users\\Ken\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ken\\source\\repos\\api_console\\Projet_API\\Client_API\\obj\\",
+        "projectPath": "C:\\Users\\flori\\source\\repos\\api_console\\Projet_API\\Client_API\\Client_API.csproj",
+        "packagesPath": "C:\\Users\\flori\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\flori\\source\\repos\\api_console\\Projet_API\\Client_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ken\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\flori\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -79,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

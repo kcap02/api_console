@@ -16,9 +16,16 @@
             <th>
                 @Html.DisplayNameFor(model => model.ConsoledeJeux[0].Model)
             </th>
-           @*<th>
-                @Html.DisplayNameFor(model => model.ConsoledeJeux[0].idConstructeur)
-            </th>*@
+          @*
+            <th>
+            @Html.DisplayNameFor(model => model.Constructeur[0].Name)
+            </th>
+            *@
+            <th>
+                Constructor Name
+            </th>
+            
+
             <th></th>
         </tr>
     </thead>
@@ -28,15 +35,18 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Model)
             </td>
-            @*
-            <td>
-                @Html.DisplayFor(modelItem => item.idConstructeur)
-            </td>*@
+
+             <td>
+                    @Html.DisplayFor(constructeurName => Model.Constructeur[ Model.ConsoledeJeux.IndexOf(item)].Name)
+            </td>
+
+            
+            
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
                 <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
             </td>
+
         </tr>
 }
     </tbody>

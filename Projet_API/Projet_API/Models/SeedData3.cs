@@ -28,7 +28,9 @@ public static class SeedData3 // Ajout d’une nouvelle classe SeedData dans Mod
             {
                 Annee = "2020",
                 id_console = 1,
-                NombreVentes= 1000
+                NombreVentes= 1000,
+        
+
             }
             );
             context.SaveChanges();

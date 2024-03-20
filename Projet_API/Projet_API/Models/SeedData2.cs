@@ -27,7 +27,7 @@ public static class SeedData2 // Ajout d’une nouvelle classe SeedData dans Mod
             new ConsoledeJeux
             {
                 Model = "Nintendo 3DS XL  ",
-                idConstructeur= 4
+                idConstructeur= 1
             }
             );
             context.SaveChanges();

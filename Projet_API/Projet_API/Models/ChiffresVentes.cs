@@ -18,7 +18,8 @@ namespace Projet_API.Models
             public int NombreVentes { get; set; }
             [ForeignKey("Console")]
 
-            public int id_console;
+            public  required int id_console { get; set; }
+
 
 
 

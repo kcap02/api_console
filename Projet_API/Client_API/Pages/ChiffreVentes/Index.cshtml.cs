@@ -19,10 +19,18 @@ namespace Client_API.Pages.ChiffreVentes
         }
 
         public IList<ChiffresVentes> ChiffresVentes { get;set; } = default!;
+        public IList<ConsoledeJeux> ConsoledeJeux = new List<ConsoledeJeux>();
 
         public async Task OnGetAsync()
         {
             ChiffresVentes = (await _context.ChiffresVentesAllAsync()).ToList();
+
+
+            foreach (var chiffres in ChiffresVentes)
+            {
+                ConsoledeJeux.Add(await _context.ConsoledeJeuxesGETAsync(chiffres.id_console));
+            }
+
         }
     }
 }

@@ -19,6 +19,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.ChiffresVentes[0].NombreVentes)
             </th>
+            <th>
+                Console de Jeux 
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -31,9 +34,11 @@
             <td>
                 @Html.DisplayFor(modelItem => item.NombreVentes)
             </td>
+                <td>
+                    @Html.DisplayFor(constructeurName => Model.ConsoledeJeux[Model.ChiffresVentes.IndexOf(item)].Model)
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+           
                 <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
             </td>
         </tr>

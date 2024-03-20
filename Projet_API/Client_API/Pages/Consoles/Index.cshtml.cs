@@ -19,10 +19,23 @@ namespace Client_API.Pages.Consoles
         }
 
         public IList<ConsoledeJeux> ConsoledeJeux { get; set; } = default!;
+         public IList< Constructeur> Constructeur = new List<Constructeur>();
+
 
         public async Task OnGetAsync()
         {
             ConsoledeJeux = (await _context.ConsoledeJeuxesAllAsync()).ToList();
+            
+        
+            foreach (var jeux in ConsoledeJeux)
+            {
+                Constructeur.Add(await _context.ConstructeursGETAsync(jeux.IdConstructeur));
+            }
+    
         }
+        
+
+
+
     }
 }
