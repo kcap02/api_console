@@ -14,18 +14,23 @@
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
+                <label class="control-label">Constructeur</label>
+                <select asp-for="ConsoledeJeux.IdConstructeur" asp-items="Model.Constructeurs.Select(o => new SelectListItem { Value = o.Id.ToString(), Text = o.Name })">
+                <option value="">Sélectionnez un objet</option>
+            </select>
+               
+            </div>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
                 <label asp-for="ConsoledeJeux.Model" class="control-label"></label>
                 <input asp-for="ConsoledeJeux.Model" class="form-control" />
                 <span asp-validation-for="ConsoledeJeux.Model" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="ConsoledeJeux.IdConstructeur" class="control-label"></label>
-                <input asp-for="ConsoledeJeux.IdConstructeur" class="form-control" />
-                <span asp-validation-for="ConsoledeJeux.IdConstructeur" class="text-danger"></span>
-            </div>
+            
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
+
         </form>
     </div>
 </div>

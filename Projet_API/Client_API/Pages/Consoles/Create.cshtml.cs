@@ -18,19 +18,27 @@ namespace Client_API.Pages.Consoles
             _context = context;
         }
 
-        public IActionResult OnGet()
-        {
-            return Page();
-        }
-
+        
         [BindProperty]
         public ConsoledeJeux ConsoledeJeux { get; set; } = default!;
+        public IList <Constructeur> Constructeurs { get; set; } = default!;
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
+
+
+
+        public async Task OnGetAsync()
+        {
+            Constructeurs = (await _context.ConstructeursAllAsync()).ToList();
+            
+        
+    
+        }
         public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid)
             {
+                int selectedIdConstructeur = ConsoledeJeux.IdConstructeur;
                 return Page();
             }
 

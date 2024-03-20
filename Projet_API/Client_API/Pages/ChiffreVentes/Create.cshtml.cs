@@ -18,15 +18,22 @@ namespace Client_API.Pages.ChiffreVentes
             _context = context;
         }
 
-        public IActionResult OnGet()
-        {
-            return Page();
-        }
+        
 
         [BindProperty]
         public ChiffresVentes ChiffresVentes { get; set; } = default!;
+        public IList <ConsoledeJeux>  ConsoledeJeux { get; set; } = default!;
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
+
+
+        public async Task OnGetAsync()
+        {
+            ConsoledeJeux = (await _context.ConsoledeJeuxesAllAsync()).ToList();
+
+
+
+        }
         public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid)
