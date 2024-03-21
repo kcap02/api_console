@@ -5,39 +5,53 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+
 
 <h4>ConsoledeJeux</h4>
 <hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-6 col-md-4"></div>
+    <div class="col-6 col-md-4">
+        <h1>Create</h1>
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label class="control-label">Constructeur</label>
-                <select asp-for="ConsoledeJeux.IdConstructeur" asp-items="Model.Constructeurs.Select(o => new SelectListItem { Value = o.Id.ToString(), Text = o.Name })">
-                <option value="">Sélectionnez un objet</option>
-            </select>
+            <div class="form-group mb-3">
+                <label  class="control-label">Constructeur</label>
+
+
+
+                <select class="custom-select form-control" asp-for="ConsoledeJeux.IdConstructeur" asp-items="Model.Constructeurs.Select(o => new SelectListItem { Value = o.Id.ToString(), Text = o.Name })">
+                        <option value="">Sélectionnez un objet</option>
+                    </select>
+                
+
                
+                <span asp-validation-for="ConsoledeJeux.IdConstructeur" class="text-danger"></span>
             </div>
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label asp-for="ConsoledeJeux.Model" class="control-label"></label>
                 <input asp-for="ConsoledeJeux.Model" class="form-control" />
                 <span asp-validation-for="ConsoledeJeux.Model" class="text-danger"></span>
             </div>
             
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Create" class="btn btn-primary form-control" />
+            </div>
+
+            <div>
+                <a asp-page="Index">
+
+                    Back to List
+                </a>
             </div>
 
         </form>
     </div>
+    <div class="col-6 col-md-4"></div>
 </div>
 
-<div>
-    <a asp-page="Index">Back to List</a>
-</div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

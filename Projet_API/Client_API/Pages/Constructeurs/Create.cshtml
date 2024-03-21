@@ -5,29 +5,33 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+
 
 <h4>Constructeur</h4>
 <hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-6 col-md-4"></div>
+    <div class="col-6 col-md-4">
+        <h1>Create</h1>
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
+            <div class="form-group mb-3">
                 <label asp-for="Constructeur.Name" class="control-label"></label>
                 <input asp-for="Constructeur.Name" class="form-control" />
                 <span asp-validation-for="Constructeur.Name" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Create" class="btn btn-primary form-control" />
+            </div>
+            <div>
+                <a asp-page="Index">Back to List</a>
             </div>
         </form>
     </div>
+    <div class="col-6 col-md-4"></div>
 </div>
 
-<div>
-    <a asp-page="Index">Back to List</a>
-</div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

@@ -46,3 +46,10 @@ button.accept-policy {
   white-space: nowrap;
   line-height: 60px;
 }
+
+.form {
+    background-color: #f6f8f8;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
