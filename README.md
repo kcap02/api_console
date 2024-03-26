@@ -1,4 +1,2 @@
-Liens:
-http://localhost:5077/api/ChiffresVentes
-http://localhost:5077/api/ConsoledeJeuxes
-http://localhost:5077/api/Constructeurs
+Lien API:https://projetapidjouacapo.azurewebsites.net
+Lien Web app:https://clientapidjouacapo.azurewebsites.net
